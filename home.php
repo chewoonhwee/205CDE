@@ -84,7 +84,7 @@
             <section id="main-home">
                 <header>
                     <div class="container">
-                        <div class="header-top d-flex justify-content-between">
+                        <div class="header-top d-flex justify-content-between pt-2">
                             <div class="d-flex justify-content-between">
                                 <div class="item px-2">
                                     <p>Follow us: </p>
