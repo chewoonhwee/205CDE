@@ -106,10 +106,10 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-between">
-                                <div class="item px-2">
+                                <div class="item px-3">
                                         <p><i class="fas fa-phone-alt"></i>012-1234567</p>
                                 </div>
-                                <div class="item px-2">
+                                <div class="item px-3">
                                     <p><i class="fas fa-map-marker-alt"></i>Penang,Malaysia</p>
                                 </div>
                             </div>
