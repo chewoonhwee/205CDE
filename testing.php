@@ -12,7 +12,7 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
             <!-- css -->
             <link rel="stylesheet" href="style.css">
-            <style>
+            <!-- <style>
 
                 html{
                     height: 100%;
@@ -78,7 +78,7 @@
                 color: white;
                 text-align: center;
               }
-            </style>
+            </style> -->
 
         </head>
 
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                         <!-- navbar -->
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+                        <nav class="navbar navbar-expand-lg navbar-light p-0">
                             <div class="container-fluid">
                                 <img src="img/logo.jpg" width="150px"></a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -148,12 +148,34 @@
                                 </ul>
                                 </div>
                             </div>
-                            </nav>
+                        </nav>
                     </div>
                 </header>
+                <!-- carousel slider -->
+                <div id="banner-slider" class="pt-5">
+                    <div class="container">
+                        <div class="">
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-6 my-auto">
+                                        <div>
+                                            <h4>Fresh Pizza</h4>
+                                            <h1>Magherita Pizza</h1>
+                                            <p class="py-2">Magherita Pizza is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt and extra-virgin olive oil.</p>
+                                            <a href="#">Order Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="img/magherita.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-                <div class="topnav">
+                <!-- <div class="topnav">
                     <ul type="none">
                         <li><a class="active" href="home.html"><b>Home</b></a></li>
                         <li><a href="menu.html"><b>Menu</b></a></li>
@@ -179,7 +201,7 @@
                     <p>FACEBOOK</p>
                     <p>INSTAGRAM</p>
                   </footer>
-                </div>
+                </div> -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         </body>
