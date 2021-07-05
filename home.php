@@ -3,7 +3,13 @@
         <head>
             <meta charset="utf-8">
             <title>Kap’s Pizzeria</title>
-
+            <!-- bootstrap CDN -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+            <!-- fontAwesome -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+            <!-- owl carousel -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
             <style>
 
                 html{
@@ -75,6 +81,34 @@
 
         <body>
             <h1 align="center">Kap’s Pizzeria</h1>
+            <section id="main-home">
+                <header>
+                    <div class="container">
+                        <div class="header-top">
+                            <div class="d-flex">
+                                <div class="item">
+                                    <p>Follow us: </p>
+                                </div>  
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </section>
 
                 <div class="topnav">
                     <ul type="none">
@@ -103,5 +137,7 @@
                     <p>INSTAGRAM</p>
                   </footer>
                 </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         </body>
     </html>
