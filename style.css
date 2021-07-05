@@ -42,3 +42,36 @@
     padding: 5px 10px;
     border-radius: 5px;
 }
+
+footer{
+    width:100%;
+    padding: 50px 0;
+    background-color:black;
+    color:white;
+}
+
+footer ul.social-icon{
+    display:flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul.social-icon li{
+    margin: 0 5px;
+}
+
+footer ul.social-icon li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: blue;
+    text-align: center;
+    color:var(--color-white);
+    line-height: 50px;
+}
+
+footer ul.social-icon li a:hover{
+    background-color: orange;
+}

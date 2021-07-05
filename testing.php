@@ -153,14 +153,15 @@
                 </header>
 
                 <!-- carousel slider -->
-                <div id="banner-slider" class="pt-5">
+                <div id="bannerSlider" class="pt-5">
                     <div class="container">
-                        <div class="carousel">
+                        <div class="myCarousel">
+                            <!-- slide 1 -->
                             <div class="item">
                                 <div class="row">
                                     <div class="col-md-6 my-auto">
                                         <div>
-                                            <h4>Fresh Pizza</h4>
+                                            <h4>Best Seller</h4>
                                             <h1>Magherita Pizza</h1>
                                             <p class="py-2">Magherita Pizza is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt and extra-virgin olive oil.</p>
                                             <a href="#" class="btn btn-theme">Order Now</a>
@@ -205,5 +206,33 @@
                 </div> -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+              
+            <footer id="footer">
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h4 class="h4"> About Us </h4>
+                        <p>About us</p>
+                        <ul class="social-icon">
+                            <li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li> <a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4 class="h4">Links</h4>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4 class="h4">Introduction</h4>
+                            <p>hello world</p>
+                    </div>
+                </div>
+            </footer>
         </body>
     </html>

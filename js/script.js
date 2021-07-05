@@ -1,6 +1,9 @@
 $(document).ready(function(){
     //owl banner slider
-    $("#banner-slider .carousel").carousel({
-        items: 1
+    $("#bannerSlider .myCarousel").carousel({
+        item: 1,
+        loop: true,
+        autoplay: true,
+        nav:true
     });
 });

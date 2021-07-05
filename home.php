@@ -10,7 +10,9 @@
             <!-- owl carousel -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
-            <style>
+            <!-- css -->
+            <link rel="stylesheet" href="style.css">
+            <!-- <style>
 
                 html{
                     height: 100%;
@@ -76,7 +78,8 @@
                 color: white;
                 text-align: center;
               }
-            </style>
+            </style> -->
+
         </head>
 
         <body>
@@ -84,6 +87,7 @@
             <section id="main-home">
                 <header>
                     <div class="container">
+                        <!-- topnav -->
                         <div class="header-top d-flex justify-content-between pt-2">
                             <div class="d-flex justify-content-between">
                                 <div class="item px-2">
@@ -114,11 +118,66 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- navbar -->
+                        <nav class="navbar navbar-expand-lg navbar-light p-0">
+                            <div class="container-fluid">
+                                <img src="img/logo.jpg" width="150px"></a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">Menu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#" >FAQ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#" >Login</a>
+                                    </li>
+                                    <div class="cart-icon my-auto">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </div>
+                                </ul>
+                                </div>
+                            </div>
+                        </nav>
                     </div>
                 </header>
+
+                <!-- carousel slider -->
+                <div id="bannerSlider" class="pt-5">
+                    <div class="container">
+                        <div class="myCarousel">
+                            <!-- slide 1 -->
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-6 my-auto">
+                                        <div>
+                                            <h4>Best Seller</h4>
+                                            <h1>Magherita Pizza</h1>
+                                            <p class="py-2">Magherita Pizza is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt and extra-virgin olive oil.</p>
+                                            <a href="#" class="btn btn-theme">Order Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="img/magherita.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-                <div class="topnav">
+                <!-- <div class="topnav">
                     <ul type="none">
                         <li><a class="active" href="home.html"><b>Home</b></a></li>
                         <li><a href="menu.html"><b>Menu</b></a></li>
@@ -144,8 +203,36 @@
                     <p>FACEBOOK</p>
                     <p>INSTAGRAM</p>
                   </footer>
-                </div>
+                </div> -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+              
+            <footer id="footer">
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h4 class="h4"> About Us </h4>
+                        <p>About us</p>
+                        <ul class="social-icon">
+                            <li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li> <a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4 class="h4">Links</h4>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4 class="h4">Introduction</h4>
+                            <p>hello world</p>
+                    </div>
+                </div>
+            </footer>
         </body>
     </html>
