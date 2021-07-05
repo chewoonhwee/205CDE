@@ -12,74 +12,6 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
             <!-- css -->
             <link rel="stylesheet" href="style.css">
-            <!-- <style>
-
-                html{
-                    height: 100%;
-                }
-
-                body{
-                    height:100%;
-                    margin:0;
-                    background-repeat: no-repeat;
-                    background-attachment: fixed;
-                    font-family: latha;
-                    color:white;
-                    background: linear-gradient(
-                         rgba(0,0,0,0.95), rgba(0,0,0,0.65), rgba(0,0,0,0.38), rgba(0,0,0,0)
-                         )
-                            ,url(./img/pizza.jpg)no-repeat;
-                    background-size: cover;
-
-                }
-
-                .topnav
-                {
-                    width: 60%;
-                    float: right;
-                    border:1px solid white;
-                }
-
-                .topnav ul li{
-                    width: 120px;
-                    float:left;
-                    margin: 10px auto;
-                    text-align: center;
-                }
-
-                .topnav ul li a{
-                    
-                    text-decoration: none;
-                    color: white;
-
-                }
-
-                .topnav ul li:hover{
-                    background-color: green;
-                }
-
-                .topnav ul li a:hover{
-                    color:white;
-                }
-
-                .favourite{
-                    width :300px;
-                    height: 532px;
-                    background-color: black;
-                    padding:55px;
-                
-                }
-                .footer {
-                position: static;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                background-color: darkgray;
-                color: white;
-                text-align: center;
-              }
-            </style> -->
-
         </head>
 
         <body>
@@ -128,19 +60,19 @@
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                    <a class="nav-link active" href="#">Home</a>
+                                    <a class="nav-link active" href="home.php">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                    <a class="nav-link" href="#">Menu</a>
+                                    <a class="nav-link" href="menu.php">Menu</a>
                                     </li>
                                     <li class="nav-item">
-                                    <a class="nav-link" href="#">About Us</a>
+                                    <a class="nav-link" href="aboutus.php">About Us</a>
                                     </li>
                                     <li class="nav-item">
-                                    <a class="nav-link" href="#" >FAQ</a>
+                                    <a class="nav-link" href="faq.php" >FAQ</a>
                                     </li>
                                     <li class="nav-item">
-                                    <a class="nav-link" href="#" >Login</a>
+                                    <a class="nav-link" href="login.php" >Login</a>
                                     </li>
                                     <div class="cart-icon my-auto">
                                         <i class="fas fa-shopping-cart"></i>
@@ -222,10 +154,10 @@
                     <div class="col-lg-3">
                         <h4 class="h4">Links</h4>
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Menu</a></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">FAQ</a></li>
+                            <li><a href="home.php">Home</a></li>
+                            <li><a href="menu.php">Menu</a></li>
+                            <li><a href="aboutus.php">About Us</a></li>
+                            <li><a href="faq.php">FAQ</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
