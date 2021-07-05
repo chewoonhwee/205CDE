@@ -1,0 +1,7 @@
+#main-home .header-top .item a{
+    color: #000000;
+}
+
+#main-home .header-top.item a:hover{
+    color: #FF004D;
+}

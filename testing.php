@@ -10,6 +10,8 @@
             <!-- owl carousel -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+            <!-- css -->
+            <link rel="stylesheet" href="style.css">
             <style>
 
                 html{
@@ -77,6 +79,7 @@
                 text-align: center;
               }
             </style>
+
         </head>
 
         <body>
@@ -84,6 +87,7 @@
             <section id="main-home">
                 <header>
                     <div class="container">
+                        <!-- topnav -->
                         <div class="header-top d-flex justify-content-between pt-2">
                             <div class="d-flex justify-content-between">
                                 <div class="item px-2">
@@ -114,6 +118,37 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- navbar -->
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">Menu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#" >FAQ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#" >Login</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#" >Cart</a>
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+                            </nav>
                     </div>
                 </header>
             </section>
