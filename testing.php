@@ -1,90 +1,151 @@
-
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Fixed top navbar example · Bootstrap v5.0</title>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Kap’s Pizzeria</title>
+            <!-- bootstrap CDN -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+            <!-- fontAwesome -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+            <!-- owl carousel -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+            <style>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/">
+                html{
+                    height: 100%;
+                }
 
+                body{
+                    height:100%;
+                    margin:0;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    font-family: latha;
+                    color:white;
+                    background: linear-gradient(
+                         rgba(0,0,0,0.95), rgba(0,0,0,0.65), rgba(0,0,0,0.38), rgba(0,0,0,0)
+                         )
+                            ,url(./img/pizza.jpg)no-repeat;
+                    background-size: cover;
+
+                }
+
+                .topnav
+                {
+                    width: 60%;
+                    float: right;
+                    border:1px solid white;
+                }
+
+                .topnav ul li{
+                    width: 120px;
+                    float:left;
+                    margin: 10px auto;
+                    text-align: center;
+                }
+
+                .topnav ul li a{
+                    
+                    text-decoration: none;
+                    color: white;
+
+                }
+
+                .topnav ul li:hover{
+                    background-color: green;
+                }
+
+                .topnav ul li a:hover{
+                    color:white;
+                }
+
+                .favourite{
+                    width :300px;
+                    height: 532px;
+                    background-color: black;
+                    padding:55px;
+                
+                }
+                .footer {
+                position: static;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: darkgray;
+                color: white;
+                text-align: center;
+              }
+            </style>
+        </head>
+
+        <body>
+            <h1 align="center">Kap’s Pizzeria</h1>
+            <section id="main-home">
+                <header>
+                    <div class="container">
+                        <div class="header-top d-flex justify-content-between pt-2">
+                            <div class="d-flex justify-content-between">
+                                <div class="item px-2">
+                                    <p>Follow us: </p>
+                                </div>  
+                                <div class="item px-2">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="item px-2">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="item px-3">
+                                        <p><i class="fas fa-phone-alt"></i>012-1234567</p>
+                                </div>
+                                <div class="item px-3">
+                                    <p><i class="fas fa-map-marker-alt"></i>Penang,Malaysia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </section>
+
+                <div class="topnav">
+                    <ul type="none">
+                        <li><a class="active" href="home.html"><b>Home</b></a></li>
+                        <li><a href="menu.html"><b>Menu</b></a></li>
+                        <li><a href="payment.html"><b>Payment</b></a></li>
+                        <li><a href="aboutus.html"><b>About Us</b></a></li>
+                        <li><a href="FAQ.html"><b>FAQ</b></a></li>
+                        <li><a href="cart.html" class="btn btn-info btn-lg">
+                            <span class="glyphicon glyphicon-shopping-cart"></span><b>Cart</b>
+                          </a></li>
+                        <li><a href="login.html"><b>Login</b></a></li>
+                    </ul>
+                </div>
     
-
-    <!-- Bootstrap core CSS -->
-<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#7952b3">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="navbar-top-fixed.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Fixed navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-
-<main class="container">
-  <div class="bg-light p-5 rounded">
-    <h1>Navbar example</h1>
-    <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser’s viewport.</p>
-    <a class="btn btn-lg btn-primary" href="/docs/5.0/components/navbar/" role="button">View navbar docs &raquo;</a>
-  </div>
-</main>
-
-
-    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-      
-  </body>
-</html>
+            <div class="favourite">
+                <h2><b>ALL TIME FAVOURITE</b></h2>
+                <img src="./img/magherita.jpg">
+                <p align="center">Magherita Pizza</p>
+                <img src="./img/pepperoni.jpg" width="282px" height="179px">
+                <p align="center">Pepperoni Pizza </p>
+            </div>
+            <div class="footer">
+                <footer>
+                    <p>FACEBOOK</p>
+                    <p>INSTAGRAM</p>
+                  </footer>
+                </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        </body>
+    </html>
