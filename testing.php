@@ -155,7 +155,7 @@
                 <!-- carousel slider -->
                 <div id="banner-slider" class="pt-5">
                     <div class="container">
-                        <div class="owl-carousel owl-theme">
+                        <div class="carousel">
                             <div class="item">
                                 <div class="row">
                                     <div class="col-md-6 my-auto">
@@ -163,7 +163,7 @@
                                             <h4>Fresh Pizza</h4>
                                             <h1>Magherita Pizza</h1>
                                             <p class="py-2">Magherita Pizza is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt and extra-virgin olive oil.</p>
-                                            <a href="#" class="btn btn-theme">Order THEM Now</a>
+                                            <a href="#" class="btn btn-theme">Order Now</a>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
