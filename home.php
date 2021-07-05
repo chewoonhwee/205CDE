@@ -84,17 +84,17 @@
             <section id="main-home">
                 <header>
                     <div class="container">
-                        <div class="header-top">
-                            <div class="d-flex">
-                                <div class="item">
+                        <div class="header-top d-flex justify-content-between">
+                            <div class="d-flex justify-content-between">
+                                <div class="item px-2">
                                     <p>Follow us: </p>
                                 </div>  
-                                <div class="item">
+                                <div class="item px-2">
                                     <a href="#">
                                         <i class="fab fa-facebook-f"></i>
                                     </a>
                                 </div>
-                                <div class="item">
+                                <div class="item px-2">
                                     <a href="#">
                                         <i class="fab fa-twitter"></i>
                                     </a>
@@ -103,6 +103,14 @@
                                     <a href="#">
                                         <i class="fab fa-instagram"></i>
                                     </a>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="item px-2">
+                                        <p><i class="fas fa-phone-alt"></i>012-1234567</p>
+                                </div>
+                                <div class="item px-2">
+                                    <p><i class="fas fa-map-marker-alt"></i>Penang,Malaysia</p>
                                 </div>
                             </div>
                         </div>
