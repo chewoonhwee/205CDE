@@ -2,7 +2,7 @@
     <html>
         <head>
             <meta charset="utf-8">
-            <title>Kap’sDDDD Pizzeria</title>
+            <title>Kap’s Pizzeria</title>
 
             <style>
 
