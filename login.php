@@ -56,15 +56,30 @@
                         Password:
                     </th>
                     <td>
-                        <input type="text" id="username">
+                        <input type="password" id="password">
                     </td>
                 </tr>
             </table>
             <div class="container">
                 <div class="center">
-                    <button type="button">Log in</button>
+                    <button type="button" onclick="validate()">Log in</button>
                 </div>
             </div>
+
+            <script>
+                function validate(){
+                    var username=document.getElementById("username").value;
+                    var password=document.getElementById("password").value;
+                    
+                    if(username=="admin"&&password=="1234"){
+                        alert("login succesfully");
+                        return false;
+                    }
+                    else{
+                        alert("login failed")
+                    }
+                }
+            </script>
         </body>
     
     
