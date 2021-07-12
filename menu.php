@@ -81,7 +81,8 @@
                       <a class="nav-link" href="login.php" >Login</a>
                       </li>
                       <div class="cart-icon my-auto">
-                          <i class="fas fa-shopping-cart"></i>
+                        <a href="cart.php">
+                          <i class="fas fa-shopping-cart"></i></a>
                       </div>
                   </ul>
                   </div>

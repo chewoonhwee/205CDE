@@ -75,7 +75,9 @@
                                     <a class="nav-link" href="login.php" >Login</a>
                                     </li>
                                     <div class="cart-icon my-auto">
+                                        <a href="cart.php">
                                         <i class="fas fa-shopping-cart"></i>
+                                        </a>
                                     </div>
                                 </ul>
                                 </div>
@@ -109,33 +111,6 @@
                 </div>
             </section>
 
-                <!-- <div class="topnav">
-                    <ul type="none">
-                        <li><a class="active" href="home.html"><b>Home</b></a></li>
-                        <li><a href="menu.html"><b>Menu</b></a></li>
-                        <li><a href="payment.html"><b>Payment</b></a></li>
-                        <li><a href="aboutus.html"><b>About Us</b></a></li>
-                        <li><a href="FAQ.html"><b>FAQ</b></a></li>
-                        <li><a href="cart.html" class="btn btn-info btn-lg">
-                            <span class="glyphicon glyphicon-shopping-cart"></span><b>Cart</b>
-                          </a></li>
-                        <li><a href="login.html"><b>Login</b></a></li>
-                    </ul>
-                </div>
-    
-            <div class="favourite">
-                <h2><b>ALL TIME FAVOURITE</b></h2>
-                <img src="./img/magherita.jpg">
-                <p align="center">Magherita Pizza</p>
-                <img src="./img/pepperoni.jpg" width="282px" height="179px">
-                <p align="center">Pepperoni Pizza </p>
-            </div>
-            <div class="footer">
-                <footer>
-                    <p>FACEBOOK</p>
-                    <p>INSTAGRAM</p>
-                  </footer>
-                </div> -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
               
