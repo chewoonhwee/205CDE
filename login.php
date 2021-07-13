@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Login/Register</title>
@@ -95,34 +96,75 @@
     h1{
         text-align:center;
     }
+    #login{
+        font-size:50px;
+        text-align:center;
+    }
+    .register_link{
+        font-size: 13px;
+    }
     }
 </style>
 
 </head>
 
 <body>
-    <div class="bg">
+    <!-- <div class="bg">
     <h1>Kap's Pizzeria</h1>
         <div class="form-box">
-            <div class="button-box">
-                <div id="btn"></div>
-                <button type="button" class="toggle-btn" onclick="login()">Login</button>
-                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            <div id="login">
+                <p>Login</p>
             </div>
-            <form id="login" class="input-group">
+            <form action="" method="post" id="login" class="input-group">
                 <input type="text" class="input-field" placeholder="User ID"required>
                 <input type="text" class="input-field" placeholder="Password"required>
                 <button type="submit" class="submit-btn">Login</button>
-            </form>
-            <form id="register" class="input-group">
-                <input type="text" class="input-field" placeholder="User ID"required>
-                <input type="email" class="input-field" placeholder="Email"required>
-                <input type="text" class="input-field" placeholder="Password"required>
-                <button type="submit" class="submit-btn">Register</button>
+            <p class='register_link'>Click here to <a href='signup.php'>Register.</a></p>
             </form>
         </div>
-    </div>
+    </div> -->
 
+    <?php
+        require('db.php');
+        session_start();
+        if (isset($_POST['user_id'])) {
+            $user_id = stripslashes($_REQUEST['user_id']);    // removes backslashes
+            $user_id = mysqli_real_escape_string($conn, $user_id);
+            $password = stripslashes($_REQUEST['password']);
+            $password = mysqli_real_escape_string($conn, $password);
+            $query    = "SELECT * FROM `users` WHERE user_id='$user_id'
+                         AND password='$password'";
+            $result = mysqli_query($conn, $query) or die(mysql_error());
+            $rows = mysqli_num_rows($result);
+            if ($rows == 1) {
+                $_SESSION['user_id'] = $user_id;
+                // Redirect to user dashboard page
+                header("Location: home.php");
+            } else {
+                echo "<div class='form'>
+                      <h3>Incorrect user_id/password.</h3><br/>
+                      <p class='link'>Click here to <a href='login.php'>Login</a> again.</p>
+                      </div>";
+            }
+        }else{
+    ?>
+        <div class="bg">
+            <h1>Kap's Pizzeria</h1>
+                <div class="form-box">
+                    <div id="login">
+                        <p>Login</p>
+                    </div>
+                    <form action="" method="post" id="login" class="input-group">
+                        <input type="text" class="input-field" placeholder="User ID"required>
+                        <input type="text" class="input-field" placeholder="Password"required>
+                        <button type="submit" class="submit-btn">Login</button>
+                    <p class='register_link'>Click here to <a href='signup.php'>Register.</a></p>
+                    </form>
+                </div>
+        </div>
+    <?php
+        }
+    ?>
     <script>
         var x = document.getElementById("login");
         var y = document.getElementById("register");
