@@ -98,7 +98,7 @@
                                             <h4>Best Seller</h4>
                                             <h1>Magherita Pizza</h1>
                                             <p class="py-2">Magherita Pizza is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt and extra-virgin olive oil.</p>
-                                            <a href="#" class="btn btn-theme">Order Now</a>
+                                            <a href="cart.php" class="btn btn-theme">Order Now</a>
                                         </div>
                                     </div>
                                     <div class="col-md-6">

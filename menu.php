@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   <!-- css -->
   <link rel="stylesheet" href="style.css">
+
   <style>
     #slides{
       width:50%;
@@ -19,6 +20,7 @@
     }
     </style>
 </head>
+
 
 <body>
   <h1 align="center">Kap’s Pizzeria</h1>
@@ -134,7 +136,7 @@
                   <h4>Best Seller</h4>
                   <h1>Magherita Pizza</h1>
                   <p class="py-2">Magherita Pizza is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt and extra-virgin olive oil.</p>
-                  <a href="#" class="btn btn-theme">Order Now</a>
+                  <a href="cart.php" class="btn btn-theme">Order Now</a>
               </div>
           </div>
           <div class="col-md-6">
@@ -149,7 +151,7 @@
                   <h4>New</h4>
                   <h1>Mega Cheese Pizza</h1>
                   <p class="py-2">All new Mega Cheese pizza that includes 4 types of cheese</p>
-                  <a href="#" class="btn btn-theme">Order Now</a>
+                  <a href="cart.php" class="btn btn-theme">Order Now</a>
               </div>
           </div>
           <div class="col-md-6">
@@ -164,7 +166,7 @@
                   <h4>All Time Favourite</h4>
                   <h1>Pepperoni Pizza</h1>
                   <p class="py-2">Pepperoni pizza is loved by all ages, perfect for any time on the day.</p>
-                  <a href="#" class="btn btn-theme">Order Now</a>
+                  <a href="cart.php" class="btn btn-theme">Order Now</a>
               </div>
           </div>
           <div class="col-md-6">
@@ -174,7 +176,7 @@
     </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <!-- <footer id="footer">
+  <footer id="footer">
               <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
@@ -200,6 +202,6 @@
                             <p>hello world</p>
                     </div>
                 </div>
-            </footer> -->
+            </footer>
 </body>
 </html>

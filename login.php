@@ -132,8 +132,7 @@
             $user_id = mysqli_real_escape_string($conn, $user_id);
             $password = stripslashes($_REQUEST['password']);
             $password = mysqli_real_escape_string($conn, $password);
-            $query    = "SELECT * FROM `users` WHERE user_id='$user_id'
-                         AND password='$password'";
+            $query    = "SELECT * FROM `users` WHERE user_id='$user_id' AND password='$password'";
             $result = mysqli_query($conn, $query) or die(mysql_error());
             $rows = mysqli_num_rows($result);
             if ($rows == 1) {
@@ -155,8 +154,8 @@
                         <p>Login</p>
                     </div>
                     <form action="" method="post" id="login" class="input-group">
-                        <input type="text" class="input-field" placeholder="User ID"required>
-                        <input type="text" class="input-field" placeholder="Password"required>
+                        <input name="user_id" type="text" class="input-field" placeholder="User ID"required>
+                        <input name="password" type="text" class="input-field" placeholder="Password"required>
                         <button type="submit" class="submit-btn">Login</button>
                     <p class='register_link'>Click here to <a href='signup.php'>Register.</a></p>
                     </form>
