@@ -211,6 +211,12 @@ if(isset($_GET["action"]))
 						<td align="right">$ <?php echo number_format($total, 2); ?></td>
 						<td></td>
 					</tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5" align="right"><button onclick="location.href = 'payment.php';" class="btn btn-success pull-right">Pay</button></td>
+                        </tr>
+                    </tfoot>
+                    
 					<?php
 					}
 					?>
