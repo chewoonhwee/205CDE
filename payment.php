@@ -7,74 +7,71 @@
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
             <!-- fontAwesome -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-            <!-- owl carousel -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
             <!-- css -->
             <link rel="stylesheet" href="style.css">
 
             <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <style>
-              @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap');
-html,body {
-    font-family: 'Raleway', sans-serif;  
-}
-.thankyou-page ._header {
-    background: #fee028;
-    padding: 100px 30px;
-    text-align: center;
-    background: #fee028 url(https://codexcourier.com/images/main_page.jpg) center/cover no-repeat;
-}
-.thankyou-page ._header .logo {
-    max-width: 200px;
-    margin: 0 auto 50px;
-}
-.thankyou-page ._header .logo img {
-    width: 100%;
-}
-.thankyou-page ._header h1 {
-    font-size: 65px;
-    font-weight: 800;
-    color: white;
-    margin: 0;
-}
-.thankyou-page ._body {
-    margin: -70px 0 30px;
-}
-.thankyou-page ._body ._box {
-    margin: auto;
-    max-width: 80%;
-    padding: 50px;
-    background: white;
-    border-radius: 3px;
-    box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
-    -moz-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
-    -webkit-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
-}
-.thankyou-page ._body ._box h2 {
-    font-size: 32px;
-    font-weight: 600;
-    color: #4ab74a;
-}
-.thankyou-page ._footer {
-    text-align: center;
-    padding: 50px 30px;
-}
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap');
+        html,body {
+            font-family: 'Raleway', sans-serif;  
+        }
+        .thankyou-page ._header {
+            background: #fee028;
+            padding: 100px 30px;
+            text-align: center;
+            background: #fee028 url(https://codexcourier.com/images/main_page.jpg) center/cover no-repeat;
+        }
+        .thankyou-page ._header .logo {
+            max-width: 200px;
+            margin: 0 auto 50px;
+        }
+        .thankyou-page ._header .logo img {
+            width: 100%;
+        }
+        .thankyou-page ._header h1 {
+            font-size: 65px;
+            font-weight: 800;
+            color: white;
+            margin: 0;
+        }
+        .thankyou-page ._body {
+            margin: -70px 0 30px;
+        }
+        .thankyou-page ._body ._box {
+            margin: auto;
+            max-width: 80%;
+            padding: 50px;
+            background: white;
+            border-radius: 3px;
+            box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+            -moz-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+            -webkit-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+        }
+        .thankyou-page ._body ._box h2 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #4ab74a;
+        }
+        .thankyou-page ._footer {
+            text-align: center;
+            padding: 50px 30px;
+        }
 
-.thankyou-page ._footer .btn {
-    background: #4ab74a;
-    color: white;
-    border: 0;
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: 0;
-    letter-spacing: 0.8px;
-    padding: 20px 33px;
-    text-transform: uppercase;
-}
-            </style>
+        .thankyou-page ._footer .btn {
+            background: #4ab74a;
+            color: white;
+            border: 0;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 0;
+            letter-spacing: 0.8px;
+            padding: 20px 33px;
+            text-transform: uppercase;
+        }
+    </style>
         </head>
 
         <body>
@@ -149,28 +146,25 @@ html,body {
                     </div>
                 </header>
                 <div class="thankyou-page">
-    <div class="_header">
-        <div class="logo">
-            <img src="https://codexcourier.com/images/banner-logo.png" alt="">
-        </div>
-        <h1>Payment Done</h1>
-        <h1>THANK YOU!</h1>
-    </div>
-    <div class="_body">
-        <div class="_box">
-            <p>
-                Thanks for choosing Kap's Pizza. We will not let you down with out delicious pizza. Have a nice day.
-            </p>
-        </div>
-    </div>
-    <div class="_footer">
-        <a class="btn" href="home.php">Back to homepage</a>
-    </div>
-</div>
+                    <div class="_header">
+                        <div class="logo">
+                            <img src="https://codexcourier.com/images/banner-logo.png" alt="">
+                        </div>
+                        <h1>Payment Done</h1>
+                        <h1>THANK YOU!</h1>
+                    </div>
+                    <div class="_body">
+                        <div class="_box">
+                            <p>
+                                Thanks for choosing Kap's Pizza. We will not let you down with out delicious pizza. Have a nice day.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="_footer">
+                        <a class="btn" href="home.php">Back to homepage</a>
+                    </div>
                 </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-              
+                </div>   
             <footer id="footer">
               <div class="container">
                 <div class="row">
@@ -194,7 +188,7 @@ html,body {
                     </div>
                     <div class="col-lg-3">
                         <h4 class="h4">Introduction</h4>
-                            <p>hello world</p>
+                            <p>Kap's amazing pizzas are known throughout the city. It is delicious beyond words. Come order now!</p>
                     </div>
                 </div>
             </footer>
