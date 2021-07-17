@@ -7,9 +7,6 @@
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
             <!-- fontAwesome -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-            <!-- owl carousel -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
             <!-- css -->
             <link rel="stylesheet" href="style.css">
         </head>
@@ -101,9 +98,6 @@
                 <p><b>6.How do I redeem my coupon or vouchers?</b></p>
                 <p>Coupon and vouchers are only available when dining-in at the restaurant. There are no online coupons or vouchers</p>
             </div>
-
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
               
             <footer id="footer">
               <div class="container">

@@ -109,21 +109,6 @@
 </head>
 
 <body>
-    <!-- <div class="bg">
-    <h1>Kap's Pizzeria</h1>
-        <div class="form-box">
-            <div id="login">
-                <p>Login</p>
-            </div>
-            <form action="" method="post" id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="User ID"required>
-                <input type="text" class="input-field" placeholder="Password"required>
-                <button type="submit" class="submit-btn">Login</button>
-            <p class='register_link'>Click here to <a href='signup.php'>Register.</a></p>
-            </form>
-        </div>
-    </div> -->
-
     <?php
         require('db.php');
         session_start();
@@ -164,23 +149,6 @@
     <?php
         }
     ?>
-    <script>
-        // var x = document.getElementById("login");
-        // var y = document.getElementById("register");
-        // var z = document.getElementById("btn");
-
-        // function register(){
-        //     x.style.left="-400px";
-        //     y.style.left="50px";
-        //     z.style.left="110px";
-        // }
-
-        // function login(){
-        //     x.style.left="50px";
-        //     y.style.left="450px";
-        //     z.style.left="0px";
-        // }
-    </script>
 </body>
 
 </html>

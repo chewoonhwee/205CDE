@@ -1,11 +1,5 @@
 <?php 
 session_start();
-
-// if (isset($_GET['logout'])) {
-//     session_destroy();
-//     unset($_SESSION['user_id']);
-//     header("location: login.php");
-// }
 ?>
 <!doctype html>
     <html>
@@ -16,17 +10,8 @@ session_start();
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
             <!-- fontAwesome -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-            <!-- owl carousel -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
             <!-- css -->
             <link rel="stylesheet" href="style.css">
-<!-- 
-            <style>
-                .login{
-                    float: right;
-                }
-            </style> -->
         </head>
 
         <body>
@@ -130,9 +115,6 @@ session_start();
                     </div>
                 </div>
             </section>
-
-            <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
               
             <footer id="footer">
               <div class="container">
