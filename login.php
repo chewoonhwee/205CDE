@@ -141,8 +141,8 @@
                 header("Location: home.php");
             } else {
                 echo "<div class='form'>
-                      <h3>Incorrect user_id/password.</h3><br/>
-                      <p class='link'>Click here to <a href='login.php'>Login</a> again.</p>
+                      <h3 align=center>Incorrect user_id/password.</h3><br/>
+                      <p align=center class='link'>Click here to <a href='login.php'>Login</a> again.</p>
                       </div>";
             }
         }else{
@@ -165,21 +165,21 @@
         }
     ?>
     <script>
-        var x = document.getElementById("login");
-        var y = document.getElementById("register");
-        var z = document.getElementById("btn");
+        // var x = document.getElementById("login");
+        // var y = document.getElementById("register");
+        // var z = document.getElementById("btn");
 
-        function register(){
-            x.style.left="-400px";
-            y.style.left="50px";
-            z.style.left="110px";
-        }
+        // function register(){
+        //     x.style.left="-400px";
+        //     y.style.left="50px";
+        //     z.style.left="110px";
+        // }
 
-        function login(){
-            x.style.left="50px";
-            y.style.left="450px";
-            z.style.left="0px";
-        }
+        // function login(){
+        //     x.style.left="50px";
+        //     y.style.left="450px";
+        //     z.style.left="0px";
+        // }
     </script>
 </body>
 

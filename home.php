@@ -1,3 +1,12 @@
+<?php 
+session_start();
+
+// if (isset($_GET['logout'])) {
+//     session_destroy();
+//     unset($_SESSION['user_id']);
+//     header("location: login.php");
+// }
+?>
 <!doctype html>
     <html>
         <head>
@@ -12,6 +21,12 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
             <!-- css -->
             <link rel="stylesheet" href="style.css">
+<!-- 
+            <style>
+                .login{
+                    float: right;
+                }
+            </style> -->
         </head>
 
         <body>
@@ -82,15 +97,20 @@
                                 </ul>
                                 </div>
                             </div>
+                            <?php
+                                if($_SESSION["user_id"]) {
+                                ?>
+                                <h5>Hi, <?php echo $_SESSION["user_id"]; ?><a href="logout.php">  Logout </a></h5>
+                                <?php
+                                    }else echo "<p>Please login first .<p>";
+                            ?>
                         </nav>
                     </div>
                 </header>
 
-                <!-- carousel slider -->
                 <div id="bannerSlider" class="pt-5">
                     <div class="container">
                         <div class="myCarousel">
-                            <!-- slide 1 -->
                             <div class="item">
                                 <div class="row">
                                     <div class="col-md-6 my-auto">
@@ -111,8 +131,8 @@
                 </div>
             </section>
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+            <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
               
             <footer id="footer">
               <div class="container">
@@ -137,7 +157,7 @@
                     </div>
                     <div class="col-lg-3">
                         <h4 class="h4">Introduction</h4>
-                            <p>hello world</p>
+                            <p>Kap's amazing pizzas are known throughout the city. It is delicious beyond words. Come order now!</p>
                     </div>
                 </div>
             </footer>

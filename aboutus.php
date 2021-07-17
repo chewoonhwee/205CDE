@@ -89,7 +89,7 @@
                 <div>
                     <h2>About Us</h2>
                     <h4>Pizza</h4>
-                    <p>Pizza is an amazingly popular food and Domino's is one of the leading pizzerias in Malaysia providing exceptional delivery service. As of 2019, Domino’s Malaysia has more than 240 pizza places that are strategically located and we are continually increasing our store numbers in order to serve more to serve all pizza lovers nationwide.</p>
+                    <p>Pizza is an amazingly popular food and Kap's is one of the leading pizzerias in Malaysia providing exceptional delivery service. As of 2019, Kap’s Malaysia has more than 240 pizza places that are strategically located and we are continually increasing our store numbers in order to serve more to serve all pizza lovers nationwide.</p>
                     <h4>About Kap's</h4>
                     <p>Kap's's Pizza started with just one store called "Kappa" bought by brothers Tom and James Monaghan for $500 in 1960. James traded his half of the business to Tom in 1965, and as sole owner Tom renamed the business Kap's's Pizza Inc. In 1978 the 200th Kap's's store opened, and things really began to cook.
                         By 1983 there were 1,000 Kap's's stores, and in the same year Kap's's opened its first international store in Winnipeg, Canada, followed by its first store on the Australasian continent in Queensland, Australia in the same year. By 1989 Kap's's had 5,000 stores in operation, making it the fastest-growing pizza company in the world, with stores in the UK, Japan, and South America.
@@ -133,7 +133,7 @@
                     </div>
                     <div class="col-lg-3">
                         <h4 class="h4">Introduction</h4>
-                            <p>hello world</p>
+                            <p>Kap's amazing pizzas are known throughout the city. It is delicious beyond words. Come order now!</p>
                     </div>
                 </div>
             </footer>

@@ -128,7 +128,7 @@
                     </div>
                     <div class="col-lg-3">
                         <h4 class="h4">Introduction</h4>
-                            <p>hello world</p>
+                            <p>Kap's amazing pizzas are known throughout the city. It is delicious beyond words. Come order now!</p>
                     </div>
                 </div>
             </footer>
