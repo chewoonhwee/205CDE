@@ -140,7 +140,7 @@
                     </div>
                     <form action="" method="post" id="login" class="input-group">
                         <input name="user_id" type="text" class="input-field" placeholder="User ID"required>
-                        <input name="password" type="text" class="input-field" placeholder="Password"required>
+                        <input name="password" type="password" class="input-field" placeholder="Password"required>
                         <button type="submit" class="submit-btn">Login</button>
                     <p class='register_link'>Click here to <a href='signup.php'>Register.</a></p>
                     </form>
