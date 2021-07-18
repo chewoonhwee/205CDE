@@ -156,7 +156,7 @@
                     <div class="_body">
                         <div class="_box">
                             <p>
-                                Thanks for choosing Kap's Pizza. We will not let you down with out delicious pizza. Have a nice day.
+                                Thanks for choosing Kap's Pizza. We will not let you down with our delicious pizza. Have a nice day.
                             </p>
                         </div>
                     </div>

@@ -140,7 +140,7 @@ if(isset($_GET["action"]))
             </header>
 
             <div class="container" style="width:700px;">
-                <h3 align="center">Cart</h3><br/>
+                <h3 align="center">Menu</h3><br/>
                 <?php
                 $query="SELECT * FROM images ORDER BY id ASC";
                 $result = mysqli_query($conn, $query);
@@ -175,7 +175,7 @@ if(isset($_GET["action"]))
 			?>
 			<div style="clear:both"></div>
 			<br />
-			<h3>Order Details</h3>
+			<h3>Cart</h3>
 			<div class="table-responsive">
 				<table class="table table-bordered">
 					<tr>
